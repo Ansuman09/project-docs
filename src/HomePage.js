@@ -23,7 +23,7 @@ const HomePage=()=>{
             </p>
             </div>
             <div className="posts-container">
-                <div className="post-container">
+                <div className="post-container" onClick={()=>(nav("insta-clone"))}>
                     <h2>A Instagram Clone</h2>
                     <img src={instaclone} alt="instaclone image"/>
                     <p>Languages: Java:SpringBoot,MYSQL,JavaScript:React</p>
