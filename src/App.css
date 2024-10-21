@@ -25,6 +25,7 @@ body {
   float: left;
   align-items: flex-start;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .post-container:hover{
@@ -45,3 +46,20 @@ body {
   height: 180px;
 }
 
+.page-navigation-container{
+  width: 330px;
+  height: 100%;
+  float: left;
+  position: fixed;
+  box-shadow: 0 4px 8px 0;
+  padding: 3px;
+}
+
+.path-choice-container{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.path-choice-container:hover{
+  color: rgb(59, 57, 57);
+}
