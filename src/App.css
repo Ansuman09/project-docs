@@ -22,10 +22,10 @@ body {
   padding: 10px;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0;
-  float: left;
   align-items: flex-start;
   cursor: pointer;
   border-radius: 5px;
+  float: left;
 }
 
 .post-container:hover{
@@ -47,19 +47,25 @@ body {
 }
 
 .page-navigation-container{
-  width: 330px;
+  width: 220px;
   height: 100%;
   float: left;
   position: fixed;
   box-shadow: 0 4px 8px 0;
   padding: 3px;
+
 }
 
 .path-choice-container{
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 .path-choice-container:hover{
   color: rgb(59, 57, 57);
+}
+
+.description-container{
+  margin-left: 300px;
+  padding: 10px;
 }

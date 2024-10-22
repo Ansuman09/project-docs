@@ -1,7 +1,11 @@
 import React from "react";
 import NavBar from "./NavBar";
+import InstaCloneArchitecture from "./InstaCloneArchitecture";
+import { useState } from "react";
 
 const InstaCloneAppDescription=()=>{
+    const [dataToDisplay,setDataToDisplay] = useState("App Architecture");
+
     return(
         <div>
             <NavBar />
@@ -25,6 +29,9 @@ const InstaCloneAppDescription=()=>{
                     <p><b>Deploying</b></p>
                 </div>
             </div>
+            {dataToDisplay === "App Architecture" ? <div className="description-container">
+                <InstaCloneArchitecture/>
+            </div> :<div></div>}
         </div>
     )
 }
