@@ -1,14 +1,16 @@
 /* colors 5DEBD7  1679AB 074173*/
 .nav-bar-container{
-  background-color: #074173;
+  background-color: #133E87;
   height: 70px;
   display: flex;
-  color: #C5FF95;
+  color: #FCCD2A;
   padding: 5px;
+  position: fixed;
+  width: 100%;
 }
 
 body {
-  background-color: #9AC8CD;
+  background-color: #FCFAEE;
 }
 
 .posts-container{
@@ -21,7 +23,8 @@ body {
   height: 320px;
   padding: 10px;
   margin-left: 30px;
-  box-shadow: 0 4px 8px 0;
+  background-color: #FFFDB5;
+  box-shadow: .5px 0px 1.5px 0px;
   align-items: flex-start;
   cursor: pointer;
   border-radius: 5px;
@@ -29,7 +32,7 @@ body {
 }
 
 .post-container:hover{
-  padding: 11px;
+  box-shadow: 3px 5px 8px 0px;
 }
 
 .post-container p {
@@ -47,6 +50,7 @@ body {
 }
 
 .page-navigation-container{
+  margin-top: 80px;
   width: 220px;
   height: 100%;
   float: left;
@@ -68,4 +72,12 @@ body {
 .description-container{
   margin-left: 300px;
   padding: 10px;
+}
+
+.feature-description-container{
+  margin-top: 100px;
+}
+
+.home-description{
+  padding-top: 100px;
 }

@@ -2,7 +2,8 @@ import React from "react";
 
 const InstaCloneArchitecture=()=>{
     return(
-    <div><h3>App Architecture</h3>
+    <div className="feature-description-container">
+        <h3>App Architecture</h3>
         <div><p>Like Many web based applications. This App requires 3 core services</p>
         <p>The Database</p>
         <p>The Backend API server</p>

@@ -11,17 +11,14 @@ const HomePage=()=>{
 
     return(
         <div>
-        <div>
-            <NavBar />
-        </div>
-        <p>This is my home page</p>
+            <NavBar/>
         
-        <div clasName="home-description">
+        <div className="home-description">
             <p>
                 Hey there! this is Ansuman. On this blog, I have showcased some of the personal projects that i have been working on. 
                 Feel free to explore the website and let me know if you would like to see any improvements.
             </p>
-            </div>
+            
             <div className="posts-container">
                 <div className="post-container" onClick={()=>(nav("insta-clone"))}>
                     <h2>A Instagram Clone</h2>
@@ -35,6 +32,7 @@ const HomePage=()=>{
                     <p>Languages: C++,SpringBoot,JavaScript</p>
                 </div>
             </div>
+        </div>
         </div> 
     )
 };
